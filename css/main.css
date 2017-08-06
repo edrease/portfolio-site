@@ -1,0 +1,107 @@
+/** {
+	border: 1px solid red;
+}
+*/
+
+
+
+body {
+	background-color: #2d2b2b;
+}
+
+h1, p {
+	font-family: futura;
+}
+
+h1, h3 {
+	font-weight: bold;
+	color: #ad2e3d;
+
+}
+
+p {
+	color: white;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	cursor: pointer;
+}
+
+#top-bar {
+	border-color: #ad2e3d;
+}
+
+.iOS, .web-dev {
+
+}
+
+.name {
+	text-align: right;
+}
+
+.logo {
+	text-align: left;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container .after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    height: 25%;
+    display: none;
+    color: #FFF;
+    /*margin-right: -100px;*/
+    margin-left: 15px;
+}
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.image-container .after .content {
+    position: absolute;
+    padding-left: 15px;
+    /*bottom: 0;*/
+}
+
+.content {
+	font-size: 1.5em;
+}
+
+.glyphicon-fullscreen {
+	color: #ad2e3d;
+	font-size: 5em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 990px) {
+	.row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	img {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.logo {
+		display: none;
+	}
+}
+
+
+
+
